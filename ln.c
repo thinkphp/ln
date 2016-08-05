@@ -1,6 +1,10 @@
 /**
+ * 
  *         x 
- * f(x) = e - a
+ * f(x) = e - a, f : (0,a) --> R
+ *
+ *   x  
+ *  e - a = 0
  */
 
 #include <stdio.h>
@@ -26,9 +30,9 @@ double DivideEtImpera(double n, double lo, double hi) {
 
 double ln(double n) {
 
-       if( n < 0 ) return;
+       if( n <= 0 ) return;
 
-       if( n == 0) return 1; 
+       if( n == 1) return 0; 
 
         else 
 
