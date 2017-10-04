@@ -53,7 +53,7 @@ func main() {
 
      n,_ = strconv.ParseFloat(os.Args[1], 64)
 
-     fmt.Printf("ln(%f) = %.19f\n", n, ln(7))    
+     fmt.Printf("ln(%f) = %.19f\n", n, ln( n ))    
 
-     fmt.Printf("ln(%f) = %.19f", n, math.Log(7))    
+     fmt.Printf("ln(%f) = %.19f", n, math.Log( n ))    
 }

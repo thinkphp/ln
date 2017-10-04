@@ -48,7 +48,7 @@ int main() {
     scanf("%f", &n);
 
     printf("ln(%.1f) = %.5f\n", n, ln(n));
-    printf("ln(%.1f) = %.5f", log(n));
+    printf("ln(%.1f) = %.5f", n, log(n));
 
  return(0);  
 }
